@@ -1,0 +1,7 @@
+{
+  "name": "MICA",
+  "description": "Assistente computacional multimodal baseado em visão computacional e agentes inteligentes para automação de tarefas e aumento de produtividade no SENAI Pernambuco.",
+  "requestFramePermissions": ["microphone", "camera", "display-capture"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
