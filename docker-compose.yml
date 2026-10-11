@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  mica-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mica-ai
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      GEMINI_MODEL: gemini-3.6-flash
+    restart: unless-stopped
